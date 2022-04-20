@@ -1,4 +1,4 @@
 # dots
-this is where i keep my config files :L
+this is where i keep my config files
 
 :)
