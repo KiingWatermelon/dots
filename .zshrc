@@ -70,7 +70,7 @@ ZSH_THEME="kiing"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(sudo git)
+plugins=(git sudo)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,10 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
-# ~/.bash_profile
-#
 [[ $(fgconsole 2>/dev/null) == 1 ]] && exec startx -- vt1
-
-alias mario64="retroarch --libretro /usr/lib/libretro/mupen64plus_next_libretro.so em/Super\ Mario\ 64\ \(USA\).z64"
+alias ls="ls -a --color=auto"
 alias geode="ssh geode@10.0.0.27"
+neofetch --ascii_colors 4 12 --colors 1 1 7 7 7 15 | sed 's/Linux/BTW/g'
+alias clear="clear && neofetch --ascii_colors 4 12 --colors 1 1 7 7 7 15 | sed 's/Linux/BTW/g'"
+
