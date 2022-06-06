@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-[[ $(fgconsole 2>/dev/null) == 1 ]] && exec startx -- vt1
+#[[ $(fgconsole 2>/dev/null) == 1 ]] && exec startx -- vt1
 alias ls="ls -a --color=auto"
 alias geode="ssh geode@10.0.0.27"
 neofetch --ascii_colors 4 12 --colors 1 1 7 7 7 15 | sed 's/Linux/BTW/g'
