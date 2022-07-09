@@ -104,4 +104,5 @@ alias ls="ls -a --color=auto"
 alias geode="ssh geode@10.0.0.27"
 neofetch --ascii_colors 4 12 --colors 1 1 7 7 7 15 | sed 's/Linux/BTW/g'
 alias clear="clear && neofetch --ascii_colors 4 12 --colors 1 1 7 7 7 15 | sed 's/Linux/BTW/g'"
+alias syu="sudo pacman -Syu"
 
